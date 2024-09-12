@@ -1,0 +1,27 @@
+.chip {
+  position: relative;
+  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  width: fit-content;
+
+  &__default {
+    background: var(--light-gray);
+    color: var(--primary);
+    border: 1px solid var(--primary-dark);
+  }
+
+  &__dark {
+    background: var(--dark-gray);
+    color: var(--light-color);
+    border: 1px solid var(--secondary-text);
+  }
+
+  &__light {
+    color: var(--dark-gray);
+    background: var(--light-color);
+    border: 1px solid var(--light-color);
+  }
+}

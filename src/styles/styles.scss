@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use "fonts";
+@use "variables";
+@use "core";
+@use "buttons";
+@use "base";
+
+a {
+  text-decoration: none !important;
+}
+
+h2 {
+  font-weight: 600 !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
